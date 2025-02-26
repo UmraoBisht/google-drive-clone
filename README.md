@@ -11,7 +11,7 @@ A web application inspired by Google Drive, allowing users to register, log in, 
 - **User-Specific Access**: Users can only see and manage their own folders and images.
 - **Delete Functionality**: Delete empty folders and individual images (including from S3).
 - **Responsive UI**: Clean, Google Drive-like interface with loaders for asynchronous operations.
-- **Navigation**: Breadcrumb navigation for folder hierarchy and links between signup/login pages.
+- **Navigation**: Breadcrumb navigation for folder hierarchy and links between signup/login page.
 
 ## Tech Stack
 
@@ -27,8 +27,8 @@ A web application inspired by Google Drive, allowing users to register, log in, 
 
 ### Frontend
 
-- **React 18**: Frontend library for building the UI (`create-react-app`).
-- **React Router**: Navigation and protected routes (`react-router-dom`).
+- **React 18**: Frontend library for building the UI (`vite app`).
+- **React Router**: Navigation and protected routes library (`react-router`).
 - **Axios**: HTTP client for API requests (`axios`).
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **Heroicons**: Icons for folder, image, and UI elements (`@heroicons/react`).
@@ -45,8 +45,8 @@ A web application inspired by Google Drive, allowing users to register, log in, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/my-drive.git
-cd my-drive
+git clone https://github.com/UmraoBisht/google-drive-clone.git
+cd google-drive-clone
 ```
 
 #### 2. Backend Setup
