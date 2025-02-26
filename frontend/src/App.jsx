@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router";
-import axios from 'axios';
-import { AuthProvider, useAuth } from './components/AuthContext';
-import Home from './components/Home';
-import Login from './components/Login';
-import Signup from './components/Signup';
+import axios from "axios";
+import { AuthProvider, useAuth } from "./components/AuthContext";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 
-// Set the backend URL (replace with your deployed URL later)
-axios.defaults.baseURL = 'http://localhost:5000';
+// Set the backend URL
+axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
 
 function PrivateRoute({ children }) {
   const { token } = useAuth();
